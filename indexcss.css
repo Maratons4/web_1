@@ -1,6 +1,6 @@
 /* index.html*/
 body {
-    background-image: url("/images/title_bg.png");
+    background-image: url("images/background.png");
     font-family: cursive;                                                                                                                           /* CSS Font */
 }
 h1 {

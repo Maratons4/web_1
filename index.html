@@ -5,7 +5,7 @@
                 index                                                                                                                                       <!-- Name in a tab-->
         </title>
             <link rel="icon" type="image/x-icon" href="images/favicon.ico">                                                                                 <!--Icon for the site-->
-            <link href="other/indexcss.css" rel="stylesheet">                                                                                               <!--External CSS-->
+            <link href="indexcss.css" rel="stylesheet">                                                                                               <!--External CSS-->
     </head>
     <body id="bg" style="background-color:powderblue";>                                                                                                   <!--Background Color-->  
         
@@ -57,7 +57,9 @@
                                 document.getElementById("id3").style.backgroundColor = "white";
                                 document.getElementById("title").style.backgroundColor = "white";
                                 document.getElementById("note").innerHTML = "note: if you are using this website you are legally sus";
-                                document.getElementById("img1").src = "images/suspect.png"
+                                document.getElementById("img1").src = "images/suspect.png";
+                                console.log("User activated (function (suspect))");
+                                location.reload()
                             }
                     </script>
 
@@ -112,5 +114,9 @@
                         </tr>
                     </table>
                 <small><h2>&copy; Maratons4 2022</h2></small>                                                                                               <!--Entity usage-->
+
+                <script>
+                    console.log("Site loaded.")                                                                                                             //Console logger
+                </script>
     </body>
 </html>

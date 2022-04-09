@@ -6,4 +6,5 @@ function hell() {
     document.getElementById("id1").style.backgroundColor = "red";
     document.getElementById("img1").src = "images/infiniteGoldenHeads.jpg";                                                     // Changes image on ID
     document.getElementById("goldHead").innerHTML = "go back to safety";
+    console.log("User activated (function (hell))");
 }
