@@ -1,0 +1,38 @@
+/* index.html*/
+body {
+    background-image: url("/images/title_bg.png");
+    font-family: cursive;                                                                                                                           /* CSS Font */
+}
+h1 {
+    font-size: 24;                                                                                                                                  /* CSS Font Size */
+}
+h2 {
+    text-align-last: right;                                                                                                                         /* CSS Text Allignment */
+}
+h3 {
+    background-color: violet;                                                                                                                     /* CSS background color */
+}
+.sellers {                                                                                                                                          /* CSS class properties */
+    color: darkblue;
+}
+/*Spreadsheets*/
+table, th, td {
+    border: 10px solid gray;
+    border-style: outset;
+}
+tr {
+    background-color: dodgerblue;
+}
+tr:nth-child(odd) {
+    background-color: rgb(15, 88, 161);
+}
+tr:hover {
+    background-color: chartreuse;
+}
+th {
+    background-color: #04AA6D;
+}
+/**/
+.center {
+    text-align: center;
+}
