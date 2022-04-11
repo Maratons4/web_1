@@ -1,7 +1,7 @@
 /* index.html*/
 body {
     background-image: url("images/background.png");
-    font-family: cursive;                                                                                                                           /* CSS Font */
+    font-family: system-ui;                                                                                                                           /* CSS Font */
 }
 h1 {
     font-size: 24;                                                                                                                                  /* CSS Font Size */
