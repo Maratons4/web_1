@@ -17,6 +17,9 @@ h3 {
 .sellers {                                                                                                                                          /* CSS class properties */
     color: darkblue;
 }
+.center {
+    text-align: center;
+}
 /*Spreadsheets*/
 table, th, td {
     border: 10px solid gray;
@@ -33,8 +36,4 @@ tr:hover {
 }
 th {
     background-color: #04AA6D;
-}
-/**/
-.center {
-    text-align: center;
 }
