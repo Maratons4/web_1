@@ -2,7 +2,7 @@
 <html lang="en">                                                                                                                                            <!-- Language of website-->
     <head>
         <title>
-                index                                                                                                                                       <!-- Name in a tab-->
+                index
         </title>
             <link rel="icon" type="image/x-icon" href="images/favicon.ico">                                                                                 <!--Icon for the site-->
             <link href="indexcss.css" rel="stylesheet">                                                                                                     <!--External CSS-->
@@ -12,10 +12,10 @@
     </head>
     <body id="bg" style="background-color:powderblue";>                                                                                                   <!--Background Color-->  
         
-            <a href="settings.html"><h2 id="settings" title="Coming soon™️">Settings</h2></a>
-            <h2 id="id2"><a href="siteCredits.html">You can find the credits for the site here.</a></h2>
+            <a href="settings.html"><div id="settings" title="Coming soon™️" class="right">Settings</div></a>
+            <div class="right" id="id2"><a href="siteCredits.html">You can find the credits for the site here.</a></div>
                 <a href="light.html">                                                                                                                       <!--<a href> usage-->
-                <p style="color:red;">This is red. Red = sus.</a></p>                                                                                     <!-- Text Color-->
+                <div style="color:red;">This is red. Red = sus.</a></div>                                                                                     <!-- Text Color-->
 
                 <noscript style="color:red;">Your browser does not support JavaScript! Some features may not work as intended!</noscript>                 <!--No JS warning-->
                 <p><center><h1 id="title">This is the Dragon's Den, from <b>Hypixel SkyBlock!</b></h1></center></p>
@@ -46,7 +46,7 @@
                     <a href="challengeCoords.html"><button type="button">Challenge inc</button></a>
 
                 <p><button type="button" onclick="hell()" id="goldHead">click pls</button></p><br>                                                          <!--Button-->
-                        <button type="button" onclick="suspect()">'dark mode'</button><br>
+                        <button type="button" onclick="suspect()">dar</button><br>
                             
                 <p><small id="note">note: if you are using this website you are legally blind</small></p>                                                   <!--Small text-->
 
@@ -54,6 +54,11 @@
                     </script>
 
                     <script>
+                        const button = document.querySelector('input');
+                        const paragraph = document.querySelector('p');
+
+                        button.addEventListener('click', updateButton);
+
                             function suspect() {
                                 document.getElementById("bg").style.backgroundColor = "black";
                                 document.getElementById("id1").style.backgroundColor = "white";
@@ -62,18 +67,14 @@
                                 document.getElementById("title").style.backgroundColor = "white";
                                 document.getElementById("note").innerHTML = "note: if you are using this website you are legally sus";
                                 document.getElementById("img1").src = "images/suspect.png";
-                                console.log("User activated (function (suspect))");
-                                var susClicks = 0;
-                                susClicks += 1;
-                                reload();
-                            }
 
-                                function reload() {
-                                    if (susClicks == 1) {
-                                        console.log("User activated (function (reload))");
+                                    if (button.value === 'dar') {
+                                        button.value === 'go';
+                                    } else {
                                         location.reload();
                                     }
-                                }
+                                console.log("User activated (function (suspect))");
+                            }
                     </script>
                     <script src="other/reload.js"></script>
 

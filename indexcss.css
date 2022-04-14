@@ -8,11 +8,11 @@ body {
 h1 {
     font-size: 24;                                                                                                                                   /* CSS Font Size */
 }
-h2 {
-    text-align-last: right;                                                                                                                         /* CSS Text Allignment */
-}
 h3 {
     background-color: violet;                                                                                                                     /* CSS background color */
+}
+.right {
+    text-align: right;
 }
 .sellers {                                                                                                                                          /* CSS class properties */
     color: darkblue;
@@ -21,6 +21,7 @@ h3 {
 table, th, td {
     border: 10px solid gray;
     border-style: outset;
+    align-items: center;
 }
 tr {
     background-color: dodgerblue;
